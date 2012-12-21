@@ -1,0 +1,171 @@
+.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.transparent {
+	background-color: transparent;
+}
+
+.block {
+	display: block;
+}
+
+.connectionError {
+	color: white;
+	background-color: red;
+	font-weight: bold;
+	padding: 20px;
+	margin: 10px;
+	position: fixed;
+	top: 30px;
+	left: 600px;
+	border-radius: 10px;
+	border-color: #bbb;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.columns {
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+	-moz-column-gap: 1em;
+	-webkit-column-gap: 1em;
+}
+
+.nopadding {
+	padding: 0px !important;
+}
+
+.hpadding {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.hmargin {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.leftpadding {
+	padding-left: 10px;
+}
+
+.leftpaddingbig {
+	padding-left: 30px;
+}
+
+.margin {
+	margin: 15px;
+}
+
+.leftmargin {
+	margin-left: 10px;
+}
+
+.leftpaddingsmall {
+	padding-left: 3px;
+}
+
+.rightpadding {
+	padding-right: 10px;
+}
+
+.rightmargin {
+	margin-right: 10px;
+}
+
+.rightmarginsmall {
+	margin-right: 3px;
+}
+
+.bottommargin {
+	margin-bottom: 10px;
+}
+
+.topmargin {
+	margin-top: 10px;
+}
+
+.toppadding {
+	padding-top: 10px;
+}
+
+.toppaddingbig {
+	padding-top: 30px;
+}
+
+.bottommarginbig {
+	margin-bottom: 30px;
+}
+
+.topmarginbig {
+	margin-top: 30px;
+}
+
+.bigmargin {
+	margin: 15px;
+}
+
+.vpadding {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.hidden {
+	display: none;
+}
+
+.bold {
+	text-weight: bold
+}
+
+.roundcorners {
+	border-radius: 10px;
+	border-color: #bbb;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.boxshadowright {
+	box-shadow: 7px 0px 7px #999;
+}
+
+.straightcorners {
+	border-radius: 0px;
+}
+
+.basicbox {
+	padding: 0px;
+	box-shadow: 0px 0px 15px #bbb;
+	border-radius: 0px;
+	border-color: #bbb;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.contentbox {
+	padding: 5px;
+	background-image: linear-gradient(bottom, rgb(196, 196, 196) 0%,
+		rgb(247, 247, 247) 67% );
+	background-image: -o-linear-gradient(bottom, rgb(196, 196, 196) 0%,
+		rgb(247, 247, 247) 67% );
+	background-image: -moz-linear-gradient(bottom, rgb(196, 196, 196) 0%,
+		rgb(247, 247, 247) 67% );
+	background-image: -webkit-linear-gradient(bottom, rgb(196, 196, 196) 0%,
+		rgb(247, 247, 247) 67% );
+	background-image: -ms-linear-gradient(bottom, rgb(196, 196, 196) 0%,
+		rgb(247, 247, 247) 67% );
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(196,
+		196, 196) ), color-stop(0.67, rgb(247, 247, 247) ) );
+}
+
+.matrixCenter {
+	text-align: center;
+}
+
+.profilePicture {
+	max-width: 305px;
+	max-height: 199px;
+}

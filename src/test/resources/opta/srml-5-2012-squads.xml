@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoccerFeed timestamp="20120920T154904+0000">
+    <SoccerDocument Type="SQUADS Latest" competition_code="EU_CL" competition_id="5" competition_name="Test League"
+        season_id="2012" season_name="Season 2012/2013">
+        <Team uID="t182">
+            <Country>Spain</Country>
+            <Founded>1973</Founded>
+            <Name>Team 182</Name>
+            <Player uID="p13268">
+                <Name>Player 13268</Name>
+                <Position>Goalkeeper</Position>
+                <Stat Type="first_name">F1</Stat>
+                <Stat Type="last_name">L1</Stat>
+                <Stat Type="known_name"></Stat>
+                <Stat Type="birth_date">1984-03-11</Stat>
+                <Stat Type="weight">82</Stat>
+                <Stat Type="height">176</Stat>
+                <Stat Type="jersey_num">1</Stat>
+                <Stat Type="real_position">Goalkeeper</Stat>
+                <Stat Type="real_position_side">Unknown</Stat>
+                <Stat Type="join_date">2010-01-14</Stat>
+                <Stat Type="country">USA</Stat>
+            </Player>
+            <Player uID="p20310">
+                <Name>Player 20310</Name>
+                <Position>Goalkeeper</Position>
+                <Stat Type="first_name">F2</Stat>
+                <Stat Type="last_name">L2</Stat>
+                <Stat Type="known_name">K2</Stat>
+                <Stat Type="birth_date">1980-05-28</Stat>
+                <Stat Type="weight">86</Stat>
+                <Stat Type="height">186</Stat>
+                <Stat Type="jersey_num">13</Stat>
+                <Stat Type="real_position">Goalkeeper</Stat>
+                <Stat Type="real_position_side">Unknown</Stat>
+                <Stat Type="join_date">2011-02-09</Stat>
+                <Stat Type="country">Germany</Stat>
+            </Player>
+            <Region>Europe</Region>
+            <SYMID>SYM1</SYMID>
+            <Stadium>
+                <Capacity>263</Capacity>
+                <Name>Venue 1</Name>
+            </Stadium>
+            <TeamOfficial Type="President" uID="man41313">
+                <PersonName>
+                    <First>F3</First>
+                    <Last>L3</Last>
+                    <join_date>2010-05-21</join_date>
+                </PersonName>
+            </TeamOfficial>
+            <TeamOfficial Type="Manager" country="Chile" uID="man257">
+                <PersonName>
+                    <First>F4</First>
+                    <Last>L4</Last>
+                    <join_date>2012-10-08</join_date>
+                </PersonName>
+            </TeamOfficial>
+        </Team>
+        <Team uID="t120">
+            <Country>Italy</Country>
+            <Founded>1999</Founded>
+            <Name>Team 120</Name>
+            <Player uID="p7445">
+                <Name>Player 7445</Name>
+                <Position>Goalkeeper</Position>
+                <Stat Type="first_name">F5</Stat>
+                <Stat Type="last_name">L5</Stat>
+                <Stat Type="known_name">K5</Stat>
+                <Stat Type="birth_date">1981-01-02</Stat>
+                <Stat Type="weight">90</Stat>
+                <Stat Type="height">190</Stat>
+                <Stat Type="jersey_num">14</Stat>
+                <Stat Type="real_position">Goalkeeper</Stat>
+                <Stat Type="real_position_side">Unknown</Stat>
+                <Stat Type="join_date">2011-01-01</Stat>
+                <Stat Type="country">Italy</Stat>
+            </Player>
+            <Player uID="p4242">
+                <Name>Player 4242</Name>
+                <Position>Goalkeeper</Position>
+                <Stat Type="first_name">F6</Stat>
+                <Stat Type="last_name">L6</Stat>
+                <Stat Type="known_name"></Stat>
+                <Stat Type="birth_date">1987-07-08</Stat>
+                <Stat Type="weight">92</Stat>
+                <Stat Type="height">191</Stat>
+                <Stat Type="jersey_num">12</Stat>
+                <Stat Type="real_position">Goalkeeper</Stat>
+                <Stat Type="real_position_side">Unknown</Stat>
+                <Stat Type="join_date">1995-05-01</Stat>
+                <Stat Type="country">Italy</Stat>
+            </Player>
+            <Region>Europe</Region>
+            <SYMID>ACM</SYMID>
+            <Stadium>
+                <Capacity>8004</Capacity>
+                <Name>Venue 2</Name>
+            </Stadium>
+            <TeamOfficial Type="Manager" country="Italy" uID="man37970">
+                <PersonName>
+                    <First>F8</First>
+                    <Last>L8</Last>
+                    <join_date>2010-06-25</join_date>
+                </PersonName>
+            </TeamOfficial>
+            <TeamOfficial Type="Team Manager" uID="man38238">
+                <PersonName>
+                    <First>F9</First>
+                    <Last>L9</Last>
+                    <join_date>2010-06-14</join_date>
+                </PersonName>
+            </TeamOfficial>
+            <TeamOfficial Type="Director, Head of Board" uID="man38237">
+                <PersonName>
+                    <First>F10</First>
+                    <Last>L10</Last>
+                    <join_date>2010-06-24</join_date>
+                </PersonName>
+            </TeamOfficial>
+            <TeamOfficial Type="Assistant Manager" uID="man38239">
+                <PersonName>
+                    <First>F11</First>
+                    <Last>L11</Last>
+                    <join_date>2010-06-24</join_date>
+                </PersonName>
+            </TeamOfficial>
+            <TeamOfficial Type="Fitness Trainer" uID="man38240">
+                <PersonName>
+                    <First>F12</First>
+                    <Last>L12</Last>
+                    <join_date>2010-06-24</join_date>
+                </PersonName>
+            </TeamOfficial>
+        </Team>
+        <Team uID="t1341">
+            <Country>Russia</Country>
+            <Name>Team 1341</Name>
+        </Team>
+        <Team uID="t202">
+            <Country>Greece</Country>
+            <Founded>1975</Founded>
+            <Name>Team 202</Name>
+        </Team>
+    </SoccerDocument>
+</SoccerFeed>

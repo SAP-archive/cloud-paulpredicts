@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MatchPreviews>
+  <Entities>
+    <Teams>
+      <Team uID="t1341">Team 1341</Team>
+      <Team uID="t251">Team 251</Team>
+      <Team uID="t120">Team 120</Team>
+      <Team uID="t2751">Team 2751</Team>
+      <Team uID="t61">Team 61</Team>
+      <Team uID="t8">Team 8</Team>
+      <Team uID="t205">Team 205</Team>
+      <Team uID="t178">Team 178</Team>
+      <Team uID="t164">Team 164</Team>
+    </Teams>
+    <Competitions>
+      <Competition uID="c5">Test League</Competition>
+    </Competitions>
+    <Players>
+      <Player uID="p19921">Player 1</Player>
+      <Player uID="p37352">Player 2</Player>
+      <Player uID="p96931">Player 3</Player>
+      <Player uID="p54104">Player 4</Player>
+      <Player uID="p42795">Player 5</Player>
+      <Player uID="p14402">Player 6</Player>
+      <Player uID="p61583">Player 7</Player>
+      <Player uID="p32284">Player 8</Player>
+      <Player uID="p29369">Player 9</Player>
+      <Player uID="p13142">Player 10</Player>
+      <Player uID="p43709">Player 11</Player>
+      <Player uID="p57114">Player 12</Player>
+      <Player uID="p8438">Player 13</Player>
+      <Player uID="p29016">Player 14</Player>
+      <Player uID="p19534">Player 15</Player>
+      <Player uID="p101937">Player 16</Player>
+      <Player uID="p53392">Player 17</Player>
+      <Player uID="p19054">Player 18</Player>
+      <Player uID="p29927">Player 19</Player>
+      <Player uID="p86169">Player 20</Player>
+      <Player uID="p8613">Player 21</Player>
+      <Player uID="p13650">Player 22</Player>
+      <Player uID="p15780">Player 23</Player>
+      <Player uID="p30308">Player 24</Player>
+      <Player uID="p48822">Player 25</Player>
+      <Player uID="p2051">Player 26</Player>
+      <Player uID="p28573">Player 27</Player>
+      <Player uID="p12303">Player 28</Player>
+      <Player uID="p12237">Player 29</Player>
+      <Player uID="p29175">Player 30</Player>
+    </Players>
+  </Entities>
+  <Match Id="f476857" AwayId="t178" HomeId="t251" MatchdayId="d2">
+    <PreviousMeetings>
+      <MatchData Id="f41885" SeasonId="s6" CompetitionId="c5">
+        <TeamData Score="2" TeamRef="t178" Side="Home">
+          <Goal Type="Goal" PlayerRef="p8613" Minute="19" />
+          <Goal Type="Goal" PlayerRef="p8438" Minute="89" />
+        </TeamData>
+        <TeamData Score="0" TeamRef="t251" Side="Away" />
+        <MatchInfo>
+          <Venue uID="v1349">Venue 1</Venue>
+          <Date>2006-04-05 19:45:00</Date>
+        </MatchInfo>
+      </MatchData>
+      <MatchData Id="f41881" SeasonId="s6" CompetitionId="c5">
+        <TeamData Score="0" TeamRef="t251" Side="Home" />
+        <TeamData Score="0" TeamRef="t178" Side="Away" />
+        <MatchInfo>
+          <Venue uID="v2713">Venue 2</Venue>
+          <Date>2006-03-28 19:45:00</Date>
+        </MatchInfo>
+      </MatchData>
+    </PreviousMeetings>
+    <PreviousMeetingsOtherComps>
+      <MatchData Id="f127995" SeasonId="s17" CompetitionId="c548">
+        <TeamData Score="2" TeamRef="t178" Side="Home">
+          <Goal Type="Goal" PlayerRef="p13650" Minute="13" />
+          <Goal Type="Goal" PlayerRef="p29927" Minute="25" />
+        </TeamData>
+        <TeamData Score="1" TeamRef="t251" Side="Away">
+          <Goal Type="Goal" PlayerRef="p43709" Minute="29" />
+        </TeamData>
+        <MatchInfo>
+          <Venue uID="v1349">Venue 1</Venue>
+          <Date>1992-04-15 19:45:00</Date>
+        </MatchInfo>
+      </MatchData>
+      <MatchData Id="f128003" SeasonId="s17" CompetitionId="c548">
+        <TeamData Score="0" TeamRef="t251" Side="Home" />
+        <TeamData Score="0" TeamRef="t178" Side="Away" />
+        <MatchInfo>
+          <Venue uID="v2713">Venue 6</Venue>
+          <Date>1991-12-11 19:45:00</Date>
+        </MatchInfo>
+      </MatchData>
+      <MatchData Id="f263153" SeasonId="s77" CompetitionId="c548">
+        <TeamData Score="3" TeamRef="t251" Side="Home">
+          <Goal Type="Goal" PlayerRef="p96931" Minute="32" />
+          <Goal Type="Goal" PlayerRef="p29016" Minute="56" />
+        </TeamData>
+        <TeamData Score="2" TeamRef="t178" Side="Away">
+          <Goal Type="Goal" PlayerRef="p29175" Minute="22" />
+          <Goal Type="Own" PlayerRef="p30308" Minute="33" />
+          <Goal Type="Goal" PlayerRef="p29369" Minute="76" />
+        </TeamData>
+        <MatchInfo>
+          <Venue Neutral="true" uID="v0"></Venue>
+          <Date>1961-05-30 00:00:00</Date>
+        </MatchInfo>
+      </MatchData>
+    </PreviousMeetingsOtherComps>
+    <Rankings>
+      <Team uID="t178">
+        <Home>
+          <Stat Type="last_goal_scored">
+            <Rank Total="1" Level="1">
+              <Player>p19054</Player>
+            </Rank>
+          </Stat>
+          <Stat Type="first_goal_scored">
+            <Rank Total="1" Level="1">
+              <Player>p86169</Player>
+            </Rank>
+          </Stat>
+          <Stat Type="goals_scored">
+            <Rank Total="2" Level="1">
+              <Player>p19054</Player>
+            </Rank>
+            <Rank Total="1" Level="2">
+              <Player>p86169</Player>
+            </Rank>
+          </Stat>
+        </Home>
+        <Overall>
+          <Stat Type="last_goal_scored">
+            <Rank Total="1" Level="1">
+              <Player>p19054</Player>
+            </Rank>
+          </Stat>
+          <Stat Type="first_goal_scored">
+            <Rank Total="1" Level="1">
+              <Player>p86169</Player>
+            </Rank>
+          </Stat>
+          <Stat Type="goals_scored">
+            <Rank Total="2" Level="1">
+              <Player>p19054</Player>
+            </Rank>
+            <Rank Total="1" Level="2">
+              <Player>p86169</Player>
+            </Rank>
+          </Stat>
+        </Overall>
+      </Team>
+    </Rankings>
+    <Totals>
+      <Team uID="t251">
+        <Stat Type="tackle_success">92.6</Stat>
+        <Stat Type="goals_conceded_per_game">0.0</Stat>
+        <Stat Type="duel_lost">69</Stat>
+        <Stat Type="blocked_scoring_att">4</Stat>
+        <Stat Type="total_yel_card">3</Stat>
+        <Stat Type="win">0</Stat>
+        <Stat Type="accurate_cross">6</Stat>
+        <Stat Type="total_fwd_zone_pass">218</Stat>
+        <Stat Type="games_played">1</Stat>
+        <Stat Type="total_cross">22</Stat>
+        <Stat Type="second_yellow">0</Stat>
+        <Stat Type="shot_accuracy">25.0</Stat>
+        <Stat Type="duel_won">68</Stat>
+        <Stat Type="total_red_card">0</Stat>
+        <Stat Type="fk_foul_lost">20</Stat>
+        <Stat Type="accurate_fwd_zone_pass">139</Stat>
+        <Stat Type="accurate_pass">263</Stat>
+        <Stat Type="won_tackle">25</Stat>
+        <Stat Type="passing_accuracy">74.3</Stat>
+        <Stat Type="total_pass">354</Stat>
+        <Stat Type="fk_foul_won">15</Stat>
+        <Stat Type="goal_conversion">0.0</Stat>
+        <Stat Type="lost_corners">9</Stat>
+        <Stat Type="draw">1</Stat>
+        <Stat Type="won_corners">10</Stat>
+        <Stat Type="possession_percentage">47.4</Stat>
+        <Stat Type="goals_conceded">0</Stat>
+        <Stat Type="total_tackle">27</Stat>
+        <Stat Type="lose">0</Stat>
+        <Stat Type="total_offside">1</Stat>
+        <Stat Type="goals">0</Stat>
+        <Stat Type="total_scoring_att">8</Stat>
+        <Stat Type="ontarget_scoring_att">2</Stat>
+      </Team>
+      <Team uID="t178">
+        <Stat Type="tackle_success">90.9</Stat>
+        <Stat Type="goals_conceded_per_game">2.0</Stat>
+        <Stat Type="duel_lost">37</Stat>
+        <Stat Type="blocked_scoring_att">5</Stat>
+        <Stat Type="total_yel_card">1</Stat>
+        <Stat Type="win">1</Stat>
+        <Stat Type="accurate_cross">6</Stat>
+        <Stat Type="total_fwd_zone_pass">650</Stat>
+        <Stat Type="games_played">1</Stat>
+        <Stat Type="total_cross">22</Stat>
+        <Stat Type="second_yellow">0</Stat>
+        <Stat Type="shot_accuracy">46.2</Stat>
+        <Stat Type="duel_won">36</Stat>
+        <Stat Type="total_red_card">0</Stat>
+        <Stat Type="fk_foul_lost">4</Stat>
+        <Stat Type="accurate_fwd_zone_pass">588</Stat>
+        <Stat Type="accurate_pass">739</Stat>
+        <Stat Type="won_tackle">10</Stat>
+        <Stat Type="passing_accuracy">93.9</Stat>
+        <Stat Type="total_pass">787</Stat>
+        <Stat Type="fk_foul_won">14</Stat>
+        <Stat Type="goal_conversion">23.1</Stat>
+        <Stat Type="lost_corners">3</Stat>
+        <Stat Type="draw">0</Stat>
+        <Stat Type="won_corners">8</Stat>
+        <Stat Type="possession_percentage">72.5</Stat>
+        <Stat Type="goals_conceded">2</Stat>
+        <Stat Type="total_tackle">11</Stat>
+        <Stat Type="lose">0</Stat>
+        <Stat Type="total_offside">5</Stat>
+        <Stat Type="goals">3</Stat>
+        <Stat Type="total_scoring_att">13</Stat>
+        <Stat Type="ontarget_scoring_att">6</Stat>
+      </Team>
+    </Totals>
+    <MatchData SeasonId="s2012" CompetitionId="c5">
+      <MatchInfo>
+        <Venue uID="v2713">Venue 6</Venue>
+        <Date>2012-10-02 19:45:00</Date>
+      </MatchInfo>
+    </MatchData>
+    <Editorial lang="it">
+      <Report id="1">Editorial äöü 1</Report>
+      <Report id="2">Editorial 2</Report>
+    </Editorial>
+    <Editorial lang="en">
+      <Report id="1">Editorial äöü 1</Report>
+      <Report id="2">Editorial 2</Report>
+    </Editorial>
+    <Editorial lang="de">
+      <Report id="1">Editorial äöü 1</Report>
+      <Report id="2">Editorial 2</Report>
+    </Editorial>
+    <Editorial lang="fr">
+      <Report id="1">Editorial äöü 1</Report>
+      <Report id="2">Editorial 2</Report>
+    </Editorial>
+    <Form>
+      <Team uID="t251">
+        <MatchData Id="f382508" SeasonId="s2011" CompetitionId="c5">
+          <TeamData Score="1" TeamRef="t251" Side="Home">
+            <Goal Type="Goal" PlayerRef="p42795" Minute="7" />
+          </TeamData>
+          <TeamData Score="0" TeamRef="t2751" Side="Away" />
+          <MatchInfo>
+            <Venue uID="v2713">Venue 6</Venue>
+            <Date>2011-12-07</Date>
+          </MatchInfo>
+        </MatchData>
+        <MatchData Id="f427897" SeasonId="s2011" CompetitionId="c5">
+          <TeamData Score="3" TeamRef="t1341" Side="Home">
+            <Goal Type="Goal" PlayerRef="p48822" Minute="27" />
+            <Goal Type="Goal" PlayerRef="p13142" Minute="71" />
+            <Goal Type="Goal" PlayerRef="p48822" Minute="88" />
+          </TeamData>
+          <TeamData Score="2" TeamRef="t251" Side="Away">
+            <Goal Type="Goal" PlayerRef="p32284" Minute="20" />
+            <Goal Type="Goal" PlayerRef="p42795" Minute="87" />
+          </TeamData>
+          <MatchInfo>
+            <Venue uID="v2493">Venue 7</Venue>
+            <Date>2012-02-15</Date>
+          </MatchInfo>
+        </MatchData>
+        <MatchData Id="f427902" SeasonId="s2011" CompetitionId="c5">
+          <TeamData Score="2" TeamRef="t251" Side="Home">
+            <Goal Type="Goal" PlayerRef="p32284" Minute="46" />
+            <Goal Type="Goal" PlayerRef="p57114" Minute="93" />
+          </TeamData>
+          <TeamData Score="0" TeamRef="t1341" Side="Away" />
+          <MatchInfo>
+            <Venue uID="v2713">Venue 6</Venue>
+            <Date>2012-03-06</Date>
+          </MatchInfo>
+        </MatchData>
+        <MatchData Id="f434229" SeasonId="s2011" CompetitionId="c5">
+          <TeamData Score="0" TeamRef="t251" Side="Home" />
+          <TeamData Score="1" TeamRef="t8" Side="Away">
+            <Goal Type="Goal" PlayerRef="p37352" Minute="75" />
+          </TeamData>
+          <MatchInfo>
+            <Venue uID="v2713">Venue 6</Venue>
+            <Date>2012-03-27</Date>
+          </MatchInfo>
+        </MatchData>
+        <MatchData Id="f434234" SeasonId="s2011" CompetitionId="c5">
+          <TeamData Score="2" TeamRef="t8" Side="Home">
+            <Goal Type="Penalty" PlayerRef="p2051" Minute="21" />
+            <Goal Type="Goal" PlayerRef="p19921" Minute="92" />
+          </TeamData>
+          <TeamData Score="1" TeamRef="t251" Side="Away">
+            <Goal Type="Goal" PlayerRef="p19534" Minute="85" />
+          </TeamData>
+          <MatchInfo>
+            <Venue uID="v35">Venue 3</Venue>
+            <Date>2012-04-04</Date>
+          </MatchInfo>
+        </MatchData>
+        <MatchData Id="f476850" SeasonId="s2012" CompetitionId="c5">
+          <TeamData Score="0" TeamRef="t61" Side="Home" />
+          <TeamData Score="0" TeamRef="t251" Side="Away" />
+          <MatchInfo>
+            <Venue uID="v12">Venue 5</Venue>
+            <Date>2012-09-19</Date>
+          </MatchInfo>
+        </MatchData>
+        <FormText>WLWLLD</FormText>
+      </Team>
+      <Team uID="t178">
+        <MatchData Id="f427905" SeasonId="s2011" CompetitionId="c5">
+          <TeamData Score="7" TeamRef="t178" Side="Home">
+            <Goal Type="Goal" PlayerRef="p19054" Minute="25" />
+            <Goal Type="Goal" PlayerRef="p19054" Minute="42" />
+            <Goal Type="Goal" PlayerRef="p19054" Minute="50" />
+            <Goal Type="Goal" PlayerRef="p86169" Minute="55" />
+            <Goal Type="Goal" PlayerRef="p19054" Minute="58" />
+            <Goal Type="Goal" PlayerRef="p86169" Minute="62" />
+            <Goal Type="Goal" PlayerRef="p19054" Minute="84" />
+          </TeamData>
+          <TeamData Score="1" TeamRef="t164" Side="Away">
+            <Goal Type="Goal" PlayerRef="p61583" Minute="90" />
+          </TeamData>
+          <MatchInfo>
+            <Venue uID="v1349">Venue 1</Venue>
+            <Date>2012-03-07</Date>
+          </MatchInfo>
+        </MatchData>
+        <MatchData Id="f434231" SeasonId="s2011" CompetitionId="c5">
+          <TeamData Score="0" TeamRef="t120" Side="Home" />
+          <TeamData Score="0" TeamRef="t178" Side="Away" />
+          <MatchInfo>
+            <Venue uID="v1335">Venue 4</Venue>
+            <Date>2012-03-28</Date>
+          </MatchInfo>
+        </MatchData>
+        <MatchData Id="f434232" SeasonId="s2011" CompetitionId="c5">
+          <TeamData Score="3" TeamRef="t178" Side="Home">
+            <Goal Type="Penalty" PlayerRef="p19054" Minute="11" />
+            <Goal Type="Penalty" PlayerRef="p19054" Minute="41" />
+            <Goal Type="Goal" PlayerRef="p12237" Minute="53" />
+          </TeamData>
+          <TeamData Score="1" TeamRef="t120" Side="Away">
+            <Goal Type="Goal" PlayerRef="p28573" Minute="32" />
+          </TeamData>
+          <MatchInfo>
+            <Venue uID="v1349">Venue 1</Venue>
+            <Date>2012-04-03</Date>
+          </MatchInfo>
+        </MatchData>
+        <MatchData Id="f435000" SeasonId="s2011" CompetitionId="c5">
+          <TeamData Score="1" TeamRef="t8" Side="Home">
+            <Goal Type="Goal" PlayerRef="p12303" Minute="47" />
+          </TeamData>
+          <TeamData Score="0" TeamRef="t178" Side="Away" />
+          <MatchInfo>
+            <Venue uID="v35">Venue 3</Venue>
+            <Date>2012-04-18</Date>
+          </MatchInfo>
+        </MatchData>
+        <MatchData Id="f435002" SeasonId="s2011" CompetitionId="c5">
+          <TeamData Score="2" TeamRef="t178" Side="Home">
+            <Goal Type="Goal" PlayerRef="p54104" Minute="35" />
+            <Goal Type="Goal" PlayerRef="p12237" Minute="43" />
+          </TeamData>
+          <TeamData Score="2" TeamRef="t8" Side="Away">
+            <Goal Type="Goal" PlayerRef="p53392" Minute="46" />
+            <Goal Type="Goal" PlayerRef="p14402" Minute="91" />
+          </TeamData>
+          <MatchInfo>
+            <Venue uID="v1349">Venue 1</Venue>
+            <Date>2012-04-24</Date>
+          </MatchInfo>
+        </MatchData>
+        <MatchData Id="f476849" SeasonId="s2012" CompetitionId="c5">
+          <TeamData Score="3" TeamRef="t178" Side="Home">
+            <Goal Type="Goal" PlayerRef="p86169" Minute="14" />
+            <Goal Type="Own" PlayerRef="p15780" Minute="29" />
+            <Goal Type="Goal" PlayerRef="p19054" Minute="71" />
+            <Goal Type="Goal" PlayerRef="p19054" Minute="80" />
+          </TeamData>
+          <TeamData Score="2" TeamRef="t205" Side="Away">
+            <Goal Type="Goal" PlayerRef="p101937" Minute="58" />
+          </TeamData>
+          <MatchInfo>
+            <Venue uID="v1349">Venue 1</Venue>
+            <Date>2012-09-19</Date>
+          </MatchInfo>
+        </MatchData>
+        <FormText>WDWLDW</FormText>
+      </Team>
+    </Form>
+    <Averages>
+      <Team uID="t251">
+        <Overall>
+          <Stat Type="second_yellow">0.0</Stat>
+          <Stat Type="total_cross">22.0</Stat>
+          <Stat Type="duel_won">68.0</Stat>
+          <Stat Type="total_red_card">0.0</Stat>
+          <Stat Type="fk_foul_lost">20.0</Stat>
+          <Stat Type="first_goal_conceded_time">00:00</Stat>
+          <Stat Type="accurate_fwd_zone_pass">139.0</Stat>
+          <Stat Type="accurate_pass">263.0</Stat>
+          <Stat Type="duel_lost">69.0</Stat>
+          <Stat Type="blocked_scoring_att">4.0</Stat>
+          <Stat Type="won_tackle">25.0</Stat>
+          <Stat Type="total_yel_card">3.0</Stat>
+          <Stat Type="total_pass">354.0</Stat>
+          <Stat Type="fk_foul_won">15.0</Stat>
+          <Stat Type="first_goal_scored_time">00:00</Stat>
+          <Stat Type="lost_corners">9.0</Stat>
+          <Stat Type="win">0.0</Stat>
+          <Stat Type="draw">1.0</Stat>
+          <Stat Type="last_goal_scored_time">00:00</Stat>
+          <Stat Type="won_corners">10.0</Stat>
+          <Stat Type="accurate_cross">6.0</Stat>
+          <Stat Type="total_fwd_zone_pass">218.0</Stat>
+          <Stat Type="possession_percentage">47.4</Stat>
+          <Stat Type="last_goal_conceded_time">00:00</Stat>
+          <Stat Type="goals_conceded">0.0</Stat>
+          <Stat Type="total_tackle">27.0</Stat>
+          <Stat Type="ontarget_scoring_att">2.0</Stat>
+          <Stat Type="total_scoring_att">8.0</Stat>
+          <Stat Type="goals">0.0</Stat>
+          <Stat Type="total_offside">1.0</Stat>
+          <Stat Type="lose">0.0</Stat>
+        </Overall>
+        <Home>
+          <Stat Type="second_yellow">N/A</Stat>
+          <Stat Type="total_cross">N/A</Stat>
+          <Stat Type="duel_won">N/A</Stat>
+          <Stat Type="total_red_card">N/A</Stat>
+          <Stat Type="fk_foul_lost">N/A</Stat>
+          <Stat Type="first_goal_conceded_time">00:00</Stat>
+          <Stat Type="accurate_fwd_zone_pass">N/A</Stat>
+          <Stat Type="accurate_pass">N/A</Stat>
+          <Stat Type="duel_lost">N/A</Stat>
+          <Stat Type="blocked_scoring_att">N/A</Stat>
+          <Stat Type="won_tackle">N/A</Stat>
+          <Stat Type="total_yel_card">N/A</Stat>
+          <Stat Type="total_pass">N/A</Stat>
+          <Stat Type="fk_foul_won">N/A</Stat>
+          <Stat Type="first_goal_scored_time">00:00</Stat>
+          <Stat Type="lost_corners">N/A</Stat>
+          <Stat Type="win">N/A</Stat>
+          <Stat Type="draw">N/A</Stat>
+          <Stat Type="last_goal_scored_time">00:00</Stat>
+          <Stat Type="won_corners">N/A</Stat>
+          <Stat Type="accurate_cross">N/A</Stat>
+          <Stat Type="total_fwd_zone_pass">N/A</Stat>
+          <Stat Type="possession_percentage">N/A</Stat>
+          <Stat Type="last_goal_conceded_time">00:00</Stat>
+          <Stat Type="goals_conceded">N/A</Stat>
+          <Stat Type="total_tackle">N/A</Stat>
+          <Stat Type="ontarget_scoring_att">N/A</Stat>
+          <Stat Type="total_scoring_att">N/A</Stat>
+          <Stat Type="goals">N/A</Stat>
+          <Stat Type="total_offside">N/A</Stat>
+          <Stat Type="lose">N/A</Stat>
+        </Home>
+        <Away>
+          <Stat Type="second_yellow">0.0</Stat>
+          <Stat Type="total_cross">22.0</Stat>
+          <Stat Type="duel_won">68.0</Stat>
+          <Stat Type="total_red_card">0.0</Stat>
+          <Stat Type="fk_foul_lost">20.0</Stat>
+          <Stat Type="first_goal_conceded_time">00:00</Stat>
+          <Stat Type="accurate_fwd_zone_pass">139.0</Stat>
+          <Stat Type="accurate_pass">263.0</Stat>
+          <Stat Type="duel_lost">69.0</Stat>
+          <Stat Type="blocked_scoring_att">4.0</Stat>
+          <Stat Type="won_tackle">25.0</Stat>
+          <Stat Type="total_yel_card">3.0</Stat>
+          <Stat Type="total_pass">354.0</Stat>
+          <Stat Type="fk_foul_won">15.0</Stat>
+          <Stat Type="first_goal_scored_time">00:00</Stat>
+          <Stat Type="lost_corners">9.0</Stat>
+          <Stat Type="win">0.0</Stat>
+          <Stat Type="draw">1.0</Stat>
+          <Stat Type="last_goal_scored_time">00:00</Stat>
+          <Stat Type="won_corners">10.0</Stat>
+          <Stat Type="accurate_cross">6.0</Stat>
+          <Stat Type="total_fwd_zone_pass">218.0</Stat>
+          <Stat Type="possession_percentage">47.4</Stat>
+          <Stat Type="last_goal_conceded_time">00:00</Stat>
+          <Stat Type="goals_conceded">0.0</Stat>
+          <Stat Type="total_tackle">27.0</Stat>
+          <Stat Type="ontarget_scoring_att">2.0</Stat>
+          <Stat Type="total_scoring_att">8.0</Stat>
+          <Stat Type="goals">0.0</Stat>
+          <Stat Type="total_offside">1.0</Stat>
+          <Stat Type="lose">0.0</Stat>
+        </Away>
+      </Team>
+      <Team uID="t178">
+        <Overall>
+          <Stat Type="second_yellow">0.0</Stat>
+          <Stat Type="total_cross">22.0</Stat>
+          <Stat Type="duel_won">36.0</Stat>
+          <Stat Type="total_red_card">0.0</Stat>
+          <Stat Type="fk_foul_lost">4.0</Stat>
+          <Stat Type="first_goal_conceded_time">28:49</Stat>
+          <Stat Type="accurate_fwd_zone_pass">588.0</Stat>
+          <Stat Type="accurate_pass">739.0</Stat>
+          <Stat Type="duel_lost">37.0</Stat>
+          <Stat Type="blocked_scoring_att">5.0</Stat>
+          <Stat Type="won_tackle">10.0</Stat>
+          <Stat Type="total_yel_card">1.0</Stat>
+          <Stat Type="total_pass">787.0</Stat>
+          <Stat Type="fk_foul_won">14.0</Stat>
+          <Stat Type="first_goal_scored_time">13:10</Stat>
+          <Stat Type="lost_corners">3.0</Stat>
+          <Stat Type="win">1.0</Stat>
+          <Stat Type="draw">0.0</Stat>
+          <Stat Type="last_goal_scored_time">79:32</Stat>
+          <Stat Type="won_corners">8.0</Stat>
+          <Stat Type="accurate_cross">6.0</Stat>
+          <Stat Type="total_fwd_zone_pass">650.0</Stat>
+          <Stat Type="possession_percentage">72.5</Stat>
+          <Stat Type="last_goal_conceded_time">57:56</Stat>
+          <Stat Type="goals_conceded">2.0</Stat>
+          <Stat Type="total_tackle">11.0</Stat>
+          <Stat Type="ontarget_scoring_att">6.0</Stat>
+          <Stat Type="total_scoring_att">13.0</Stat>
+          <Stat Type="goals">3.0</Stat>
+          <Stat Type="total_offside">5.0</Stat>
+          <Stat Type="lose">0.0</Stat>
+        </Overall>
+        <Home>
+          <Stat Type="second_yellow">0.0</Stat>
+          <Stat Type="total_cross">22.0</Stat>
+          <Stat Type="duel_won">36.0</Stat>
+          <Stat Type="total_red_card">0.0</Stat>
+          <Stat Type="fk_foul_lost">4.0</Stat>
+          <Stat Type="first_goal_conceded_time">28:49</Stat>
+          <Stat Type="accurate_fwd_zone_pass">588.0</Stat>
+          <Stat Type="accurate_pass">739.0</Stat>
+          <Stat Type="duel_lost">37.0</Stat>
+          <Stat Type="blocked_scoring_att">5.0</Stat>
+          <Stat Type="won_tackle">10.0</Stat>
+          <Stat Type="total_yel_card">1.0</Stat>
+          <Stat Type="total_pass">787.0</Stat>
+          <Stat Type="fk_foul_won">14.0</Stat>
+          <Stat Type="first_goal_scored_time">13:10</Stat>
+          <Stat Type="lost_corners">3.0</Stat>
+          <Stat Type="win">1.0</Stat>
+          <Stat Type="draw">0.0</Stat>
+          <Stat Type="last_goal_scored_time">79:32</Stat>
+          <Stat Type="won_corners">8.0</Stat>
+          <Stat Type="accurate_cross">6.0</Stat>
+          <Stat Type="total_fwd_zone_pass">650.0</Stat>
+          <Stat Type="possession_percentage">72.5</Stat>
+          <Stat Type="last_goal_conceded_time">57:56</Stat>
+          <Stat Type="goals_conceded">2.0</Stat>
+          <Stat Type="total_tackle">11.0</Stat>
+          <Stat Type="ontarget_scoring_att">6.0</Stat>
+          <Stat Type="total_scoring_att">13.0</Stat>
+          <Stat Type="goals">3.0</Stat>
+          <Stat Type="total_offside">5.0</Stat>
+          <Stat Type="lose">0.0</Stat>
+        </Home>
+        <Away>
+          <Stat Type="second_yellow">N/A</Stat>
+          <Stat Type="total_cross">N/A</Stat>
+          <Stat Type="duel_won">N/A</Stat>
+          <Stat Type="total_red_card">N/A</Stat>
+          <Stat Type="fk_foul_lost">N/A</Stat>
+          <Stat Type="first_goal_conceded_time">00:00</Stat>
+          <Stat Type="accurate_fwd_zone_pass">N/A</Stat>
+          <Stat Type="accurate_pass">N/A</Stat>
+          <Stat Type="duel_lost">N/A</Stat>
+          <Stat Type="blocked_scoring_att">N/A</Stat>
+          <Stat Type="won_tackle">N/A</Stat>
+          <Stat Type="total_yel_card">N/A</Stat>
+          <Stat Type="total_pass">N/A</Stat>
+          <Stat Type="fk_foul_won">N/A</Stat>
+          <Stat Type="first_goal_scored_time">00:00</Stat>
+          <Stat Type="lost_corners">N/A</Stat>
+          <Stat Type="win">N/A</Stat>
+          <Stat Type="draw">N/A</Stat>
+          <Stat Type="last_goal_scored_time">00:00</Stat>
+          <Stat Type="won_corners">N/A</Stat>
+          <Stat Type="accurate_cross">N/A</Stat>
+          <Stat Type="total_fwd_zone_pass">N/A</Stat>
+          <Stat Type="possession_percentage">N/A</Stat>
+          <Stat Type="last_goal_conceded_time">00:00</Stat>
+          <Stat Type="goals_conceded">N/A</Stat>
+          <Stat Type="total_tackle">N/A</Stat>
+          <Stat Type="ontarget_scoring_att">N/A</Stat>
+          <Stat Type="total_scoring_att">N/A</Stat>
+          <Stat Type="goals">N/A</Stat>
+          <Stat Type="total_offside">N/A</Stat>
+          <Stat Type="lose">N/A</Stat>
+        </Away>
+      </Team>
+    </Averages>
+  </Match>
+</MatchPreviews>

@@ -1,0 +1,10 @@
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+
+    <include file="db/db.changelog-20120921-Fixtures-addGroup.xml" />
+    <include file="db/db.changelog-20120924-Teams.xml" />
+    <include file="db/db.changelog-20120924-Fixtures.xml" />
+    <include file="db/db.changelog-20121002-Fixtures.xml" />
+    <include file="db/db.changelog-20121002-Teams.xml" />
+    <include file="db/db.changelog-20121214-Users.xml" />
+</databaseChangeLog>

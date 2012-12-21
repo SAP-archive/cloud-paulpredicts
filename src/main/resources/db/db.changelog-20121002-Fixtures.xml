@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+
+    <changeSet id="5" author="rw">
+        <preConditions onFail="MARK_RAN">
+            <tableExists tableName="USERS" />
+        </preConditions>
+
+        <sql>ALTER TABLE FIXTURES ADD (COMPETITION_ID INT)</sql>
+        <sql>ALTER TABLE FIXTURES ADD (SEASON_ID INT)</sql>
+        <sql>ALTER TABLE FIXTURES ADD (VENUE VARCHAR(255))</sql>
+        <sql>ALTER TABLE FIXTURES ADD (CITY VARCHAR(255))</sql>
+        <sql>UPDATE FIXTURES SET EXTID=SUBSTR(EXTID, 2)</sql>
+    </changeSet>
+</databaseChangeLog>

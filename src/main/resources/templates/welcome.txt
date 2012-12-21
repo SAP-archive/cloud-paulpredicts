@@ -1,0 +1,5 @@
+Hello ${username},
+
+Thank you for playing Paul Predicts. We hope you have fun and like the project. If you are interested, you can even find out how it was developed on https://github.com/sapnwcloud/paulpredicts!
+
+Have fun playing against Paul The Octopus!	

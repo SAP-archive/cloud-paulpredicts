@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoccerFeed>
+  <SoccerDocument Type="RESULTS Latest" competition_code="EU_CL" competition_id="5" competition_name="Test League" game_system_id="1" season_id="2012" season_name="Season 2012/2013" timestamp="2012-10-03 15-17-07">
+    <MatchData uID="g476920">
+      <MatchInfo GroupName="B" MatchDay="6" Period="PreMatch" RoundNumber="1" RoundType="Round" Venue_id="3063">
+        <Date>2012-12-01 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Venue 1</Stat>
+      <Stat Type="City">City 1</Stat>
+      <TeamData Score="0" Side="Home" TeamRef="t202" />
+      <TeamData Score="0" Side="Away" TeamRef="t3" />
+    </MatchData>
+    <MatchData uID="g476841">
+      <MatchInfo GroupName="C" MatchDay="1" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="1354">
+        <Date>2012-09-12 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Venue 2</Stat>
+      <Stat Type="City">City 2</Stat>
+      <TeamData Score="3" Side="Home" TeamRef="t182">
+        <Goal Period="FirstHalf" PlayerRef="p10144" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p80209" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p80209" Type="Goal" />
+      </TeamData>
+      <TeamData Score="0" Side="Away" TeamRef="t1341" />
+    </MatchData>
+    <Team uID="t1341">
+      <Name>Team 1341</Name>
+    </Team>
+    <Team uID="t182">
+      <Name>Team 182</Name>
+    </Team>
+    <Team uID="t202">
+      <Name>Team 202</Name>
+    </Team>
+    <Team uID="t3">
+      <Name>Team 3</Name>
+    </Team>
+  </SoccerDocument>
+</SoccerFeed>

@@ -1,0 +1,9 @@
+Name=Session
+Type=MAIL
+mail.transport.protocol=smtp
+mail.smtp.host=<your SMPT host e.g. smtp.gmail.com>
+mail.smtp.auth=true
+mail.smtp.starttls.enable=true
+mail.smtp.port=<specify port e.g. 587(gmail)>
+mail.user=<username e.g. test_01@gmail.com>
+mail.password=<your password>

@@ -1,0 +1,7 @@
+Hello ${username},
+
+Your E-Mail was just registered online for the Paul Predicts game. Please activate your account by visiting the link below. 
+
+${link}
+
+Have fun playing against Paul The Octopus!	
