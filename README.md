@@ -1,4 +1,4 @@
-SAP NetWeaver Cloud Samples - PaulPredicts
+SAP HANA Cloud Samples - PaulPredicts
 ==========================================
 
 Paul Predicts is a real-life, productively used app showing how to create a server back-end serving multiple front-end technologies. It is showing all currently available SAP Netweaver Cloud services. 
@@ -6,7 +6,7 @@ Paul Predicts is a real-life, productively used app showing how to create a serv
 Quick start
 -----------
 
-Clone the repo, `git clone https://github.com/sapnwcloud/paulpredicts.git`, or [download the latest release](https://github.com/sapnwcloud/paulpredicts/zipball/master).
+Clone the repo, `git clone https://github.com/sap/cloud-paulpredicts.git`, or [download the latest release](https://github.com/sap/cloud-paulpredicts/zipball/master).
 
 Project Overview
 ----------------
