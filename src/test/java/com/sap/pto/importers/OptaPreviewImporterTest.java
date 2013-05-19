@@ -11,7 +11,6 @@ import org.junit.Before;
 import org.junit.Test;
 
 import com.sap.pto.dao.EditorialDAO;
-import com.sap.pto.dao.FixtureDAO;
 import com.sap.pto.dao.TeamDAO;
 import com.sap.pto.dao.entities.Editorial;
 import com.sap.pto.dao.entities.Team;

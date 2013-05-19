@@ -27,7 +27,6 @@ public class UploadHandler {
     private static HashSet<String> ALLOWED_IMAGE_HEADERS = new HashSet<String>(Arrays.asList(HEADER_OF_JPEG_FILE, HEADER_OF_GIF_FILE,
             HEADER_OF_PNG_FILE));
 
-    @SuppressWarnings("unchecked")
     public static FileItem getUploadedDocument(HttpServletRequest request) throws FileUploadException {
         FileItemFactory factory = new DiskFileItemFactory();
         ServletFileUpload upload = new ServletFileUpload(factory);

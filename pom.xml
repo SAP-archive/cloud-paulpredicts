@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.sap.netweaver.cloud.sample.paulpredicts</groupId>
     <packaging>war</packaging>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <description>A productively used app showing how-to create a server back-end serving multiple front-end technologies.</description>
 
     <organization>
@@ -20,9 +20,9 @@
 
     <developers>
         <developer>
-            <name>SAP NetWeaver Cloud</name>
+            <name>SAP HANA Cloud</name>
             <email>netweaver-cloud@sap.com</email>
-            <url>http://netweaver.ondemand.com</url>
+            <url>http://hana.ondemand.com</url>
             <organization>SAP AG</organization>
             <organizationUrl>http://www.sap.com/</organizationUrl>
         </developer>
@@ -50,12 +50,16 @@
         </repository>
     </repositories>
 
+    <prerequisites>
+        <maven>3.0.4</maven>
+    </prerequisites>
+
     <properties>
         <nw.cloud.jdk.version>1.6</nw.cloud.jdk.version>
-        <nw.cloud.sdk.version>1.16.0</nw.cloud.sdk.version>
-        <opencmis.version>0.7.0-sap-05</opencmis.version>
-        <cxf.version>2.7.1</cxf.version>
-        <shiro.version>1.2.1</shiro.version>
+        <nw.cloud.sdk.version>1.26.6.2</nw.cloud.sdk.version>
+        <opencmis.version>0.8.0-sap-08</opencmis.version>
+        <cxf.version>2.7.5</cxf.version>
+        <shiro.version>1.2.2</shiro.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
@@ -65,7 +69,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.0</version>
+                <version>3.1</version>
                 <configuration>
                     <source>${nw.cloud.jdk.version}</source>
                     <target>${nw.cloud.jdk.version}</target>
@@ -91,9 +95,9 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>1.6.1</version>
+            <version>1.7.2</version>
             <scope>system</scope>
-            <systemPath>${env.NW_CLOUD_SDK_PATH}/api/slf4j-api-1.6.1.jar</systemPath>
+            <systemPath>${env.NW_CLOUD_SDK_PATH}/api/slf4j-api-1.7.2.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>com.sap.netweaver.cloud</groupId>
@@ -121,21 +125,21 @@
             <artifactId>mail</artifactId>
             <version>1.4.1</version>
             <scope>system</scope>
-            <systemPath>${env.NW_CLOUD_SDK_PATH}/api/com.sap.javax.mail-1.4.1.jar</systemPath>
+            <systemPath>${env.NW_CLOUD_SDK_PATH}/api/mail-1.4.1.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
-            <version>4.1.1</version>
+            <version>4.1.3</version>
             <scope>system</scope>
-            <systemPath>${env.NW_CLOUD_SDK_PATH}/api/httpclient-4.1.1.jar</systemPath>
+            <systemPath>${env.NW_CLOUD_SDK_PATH}/api/httpclient-4.1.3.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpcore</artifactId>
-            <version>4.1</version>
+            <version>4.1.4</version>
             <scope>system</scope>
-            <systemPath>${env.NW_CLOUD_SDK_PATH}/api/httpcore-4.1.jar</systemPath>
+            <systemPath>${env.NW_CLOUD_SDK_PATH}/api/httpcore-4.1.4.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>org.apache.shiro</groupId>
@@ -150,7 +154,7 @@
         <dependency>
             <groupId>org.quartz-scheduler</groupId>
             <artifactId>quartz</artifactId>
-            <version>2.1.6</version>
+            <version>2.1.7</version>
             <exclusions>
                 <exclusion>
                     <artifactId>c3p0</artifactId>
@@ -185,30 +189,30 @@
         <dependency>
             <groupId>org.eclipse.persistence</groupId>
             <artifactId>eclipselink</artifactId>
-            <version>2.3.1</version>
+            <version>2.5.0</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.10</version>
+            <version>4.11</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.derby</groupId>
             <artifactId>derby</artifactId>
-            <version>10.9.1.0</version>
+            <version>10.10.1.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.derby</groupId>
             <artifactId>derbyclient</artifactId>
-            <version>10.9.1.0</version>
+            <version>10.10.1.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
-            <version>2.2.1</version>
+            <version>2.2.4</version>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
@@ -223,7 +227,7 @@
         <dependency>
             <groupId>joda-time</groupId>
             <artifactId>joda-time</artifactId>
-            <version>2.1</version>
+            <version>2.2</version>
         </dependency>
         <dependency>
             <groupId>commons-io</groupId>
@@ -238,7 +242,7 @@
         <dependency>
             <groupId>org.jsoup</groupId>
             <artifactId>jsoup</artifactId>
-            <version>1.7.1</version>
+            <version>1.7.2</version>
         </dependency>
         <dependency>
             <groupId>commons-validator</groupId>
@@ -248,7 +252,7 @@
         <dependency>
             <groupId>commons-fileupload</groupId>
             <artifactId>commons-fileupload</artifactId>
-            <version>1.2.2</version>
+            <version>1.3</version>
         </dependency>
         <dependency>
             <groupId>javax.servlet</groupId>

@@ -1,12 +1,14 @@
 SAP HANA Cloud Samples - PaulPredicts
 ==========================================
 
-Paul Predicts is a real-life, productively used app showing how to create a server back-end serving multiple front-end technologies. It is showing all currently available SAP Netweaver Cloud services. 
+Paul Predicts is a real-life, productively used app showing how to create a server back-end serving multiple front-end technologies. It is showing all currently available SAP HANA Cloud services. 
 
 Quick start
 -----------
 
 Clone the repo, `git clone https://github.com/sap/cloud-paulpredicts.git`, or [download the latest release](https://github.com/sap/cloud-paulpredicts/zipball/master).
+
+Read the how-to blog: http://scn.sap.com/community/developer-center/cloud-platform/blog/2012/12/21/get-ready-for-your-paul-position
 
 Project Overview
 ----------------
@@ -14,7 +16,7 @@ Project Overview
 Here is a basic description of the project. The structure is as follows:
 
 com.sap.pto - the main package that holds all other
-	adapters - classes for accessing the SAP NetWeaver Cloud Platform's services
+	adapters - classes for accessing the SAP HANA Cloud Platform's services
 	dao - methods for storing, updating and retrieving data from the database
 		entities - JPA entities describing the data schema and relations
 	importers - classes used for retrieving information from the data provider, which provides XML files
@@ -30,21 +32,21 @@ com.sap.pto - the main package that holds all other
 Application startup
 -------------------
 
-You can run Paul the Octopus either locally, or on the Cloud.
+You can run PaulPredicts either locally, or on the Cloud.
 
 1) Running locally
  - go to your computer’s properties, Advanced System Settings, Environment variables and create a new system variable named “NW_CLOUD_SDK_PATH” and 
- enter the path to the directory where you have the downloaded the SAP NetWeaver Cloud SDK to
+ enter the path to the directory where you have the downloaded the SAP HANA Cloud SDK to
  - you have to create a new local server
  - double-click on it, Connectivity tab, create a new Destination, named "opta" and paste the following URL to the URL field:
- https://octopuspaul.netweaver.ondemand.com/ptodata/
+ https://octopuspaul.hana.ondemand.com/ptodata/
  - if you work behind a proxy server, then you should configure your proxy settings (host and port). Double click on the server,
  go to Overview tab and press the Open launch configuration. In the tab (x)= Arguments, VM Arguments copy this:
  -Dhttp.proxyHost=<yourproxyHost> -Dhttp.proxyPort=<yourProxyPort> -Dhttps.proxyHost=<yourproxyHost> -Dhttps.proxyPort=<yourProxyPort> 
  and set your proxy hosts and ports 
  - create Local users - double-click on the created server, go to User tab and create new users with the properties required. Set a role for every of your users.
  Role with name "Everyone" is mandatory and if you want to use the admin UI, then add one more role, named "admin".
- - run MongoDB - it is used for the SAP NetWeaver Cloud's Document Service when running it locally. Download MongoDB from here: http://www.mongodb.org/downloads,
+ - run MongoDB - it is used for the SAP HANA Cloud's Document Service when running it locally. Download MongoDB from here: http://www.mongodb.org/downloads,
  save the archive, unpack and execute the following command: mongod --dbpath C:\mongodb_data, where "C:\mongodb_data" is an empty directory
  
  Note: when running locally you will receive the mails on your local file system. In your local server's folder/work/mailservice/
@@ -52,13 +54,13 @@ You can run Paul the Octopus either locally, or on the Cloud.
  
  2) Running on the Cloud
  - go to your computer’s properties, Advanced System Settings, Environment variables and create a new system variable named “NW_CLOUD_SDK_PATH” and 
- enter the path to the directory where you have the downloaded the SAP NetWeaver Cloud SDK to.
- - create a server on the SAP NetWeaver Cloud Platform
+ enter the path to the directory where you have the downloaded the SAP HANA Cloud SDK to.
+ - create a server on the SAP HANA Cloud Platform
  - double-click on it, Connectivity tab, create a new Destination, named "opta" and paste the following URL to the URL field:
- https://octopuspaul.netweaver.ondemand.com/ptodata/
+ https://octopuspaul.hana.ondemand.com/ptodata/
  - for using the Mail Service you have got to complete a put-destination operation with a specially prepared file (you can find one in the current directory,
  named Session.template). Remove the .template extension(!) and fill in data regarding SMTP, username, password etc for you email account.
- The put-destination operation can be completed with the Console Client and with a special properties file, containing information about your SAP NetWeaver Cloud account 
+ The put-destination operation can be completed with the Console Client and with a special properties file, containing information about your SAP HANA Cloud account 
  (you can also find this template in the same folder). Fill in the template and enter the following command in the Console Client: neo put-destination <path to the file with properties>
  - assign your user a specific role - go to the accounts page, Authorizations tab, select application from the combo box and the available roles will appear on the right.
  Choose Users from the combo box below and assign the desired role.
@@ -67,7 +69,7 @@ You can run Paul the Octopus either locally, or on the Cloud.
 Versioning
 ----------
 
-For transparency and insight into our release cycle, and for striving to maintain backward compatibility, the SAP NetWeaver Cloud - Samples project will be maintained under the Semantic Versioning guidelines as much as possible.
+For transparency and insight into our release cycle, and for striving to maintain backward compatibility, the SAP HANA Cloud - Samples project will be maintained under the Semantic Versioning guidelines as much as possible.
 
 Releases will be numbered with the following format:
 
@@ -98,7 +100,7 @@ Authors
 Copyright and license
 ---------------------
 
-Copyright 2012 SAP AG
+Copyright 2013 SAP AG
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this work except in compliance with the License.

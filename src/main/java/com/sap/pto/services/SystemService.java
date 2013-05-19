@@ -28,7 +28,7 @@ public class SystemService extends BasicService {
         info.addProperty("dateformat", Consts.DATEFORMAT);
         info.addProperty("version", Consts.VERSION);
         info.addProperty("paulid", UserUtil.getPaul().getId());
-        info.addProperty("adminmode", true);
+        info.addProperty("adminmode", userUtil.isAdmin(request));
         info.addProperty("shiromode", UserUtil.isShiroActive());
 
         return info.toString();
