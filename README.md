@@ -35,8 +35,6 @@ Application startup
 You can run PaulPredicts either locally, or on the Cloud.
 
 1) Running locally
- - go to your computer’s properties, Advanced System Settings, Environment variables and create a new system variable named “NW_CLOUD_SDK_PATH” and 
- enter the path to the directory where you have the downloaded the SAP HANA Cloud SDK to
  - you have to create a new local server
  - double-click on it, Connectivity tab, create a new Destination, named "opta" and paste the following URL to the URL field:
  https://octopuspaul.hana.ondemand.com/ptodata/
@@ -53,8 +51,6 @@ You can run PaulPredicts either locally, or on the Cloud.
  - Run the application
  
  2) Running on the Cloud
- - go to your computer’s properties, Advanced System Settings, Environment variables and create a new system variable named “NW_CLOUD_SDK_PATH” and 
- enter the path to the directory where you have the downloaded the SAP HANA Cloud SDK to.
  - create a server on the SAP HANA Cloud Platform
  - double-click on it, Connectivity tab, create a new Destination, named "opta" and paste the following URL to the URL field:
  https://octopuspaul.hana.ondemand.com/ptodata/
